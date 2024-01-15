@@ -4,11 +4,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionInDotNet", "ExceptionInDotNet.csproj", "{5E50DBC4-34E1-4EAD-9D40-C6D173551CE7}"
-	ProjectSection(ProjectDependencies) = postProject
-		{9CF481C9-B802-446B-B282-5C2020E7C7B0} = {9CF481C9-B802-446B-B282-5C2020E7C7B0}
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "..\Logger\Logger.csproj", "{9CF481C9-B802-446B-B282-5C2020E7C7B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger1", "..\Logger1\Logger1.csproj", "{6DAFF53A-EF0A-4BF0-8954-6AA58DD92342}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +17,10 @@ Global
 		{5E50DBC4-34E1-4EAD-9D40-C6D173551CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E50DBC4-34E1-4EAD-9D40-C6D173551CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E50DBC4-34E1-4EAD-9D40-C6D173551CE7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CF481C9-B802-446B-B282-5C2020E7C7B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CF481C9-B802-446B-B282-5C2020E7C7B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CF481C9-B802-446B-B282-5C2020E7C7B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CF481C9-B802-446B-B282-5C2020E7C7B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DAFF53A-EF0A-4BF0-8954-6AA58DD92342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DAFF53A-EF0A-4BF0-8954-6AA58DD92342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DAFF53A-EF0A-4BF0-8954-6AA58DD92342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DAFF53A-EF0A-4BF0-8954-6AA58DD92342}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -234,12 +234,6 @@
     <Content Include="Views\Employees\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Logger\Logger.csproj">
-      <Project>{9cf481c9-b802-446b-b282-5c2020e7c7b0}</Project>
-      <Name>Logger</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
     <Content Include="Content\bootstrap.rtl.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
@@ -268,6 +262,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logger1\Logger1.csproj">
+      <Project>{6DAFF53A-EF0A-4BF0-8954-6AA58DD92342}</Project>
+      <Name>Logger1</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

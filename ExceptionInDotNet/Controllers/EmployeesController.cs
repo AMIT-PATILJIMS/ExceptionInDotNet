@@ -8,6 +8,7 @@ using System.Runtime.Remoting.Messaging;
 using System.Web;
 using System.Web.Mvc;
 using ExceptionInDotNet.Models;
+using Logger1;
 
 namespace ExceptionInDotNet.Controllers
 {
